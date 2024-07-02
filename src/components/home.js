@@ -3,7 +3,6 @@ import ImageHero from '../olena-bohovyk-Ft_Wn-K5YH8-unsplash.jpg'
 export default function Home () {
     return (
         <>
-            {/* hero section */}
             <div className="hero min-h-screen">
                 <div className="hero-overlay bg-opacity-60">
                     <img src={ImageHero} alt='pic' className='opacity-50' />
